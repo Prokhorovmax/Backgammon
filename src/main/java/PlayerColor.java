@@ -1,0 +1,2 @@
+
+enum PlayerColor {WHITE, BLACK}
