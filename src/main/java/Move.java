@@ -1,11 +1,11 @@
 
 public class Move {
 
-    private int start;
+    private final int start;
     private int finish;
     private int weight;
     private int amount;
-    private PlayerColor playerColor;
+    private final PlayerColor playerColor;
 
     public Move(PlayerColor color, int start, int finish) {
         this.playerColor = color;
